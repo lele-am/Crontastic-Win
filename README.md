@@ -11,13 +11,13 @@ This is not a scheduling service, it only builds CRON expressions you can then i
 
 - **User Interface**: Intuitive UI to help users create cron expressions without needing in-depth knowledge.
 - **Comprehensive Cron Parsing**: Supports standard cron syntax with minute, hour, day of the month, month, and day of the week fields.
-- **Advanced Syntax Support**: Handles ranges (`-`), steps (`/`) and lists (`,`)..
+- **Advanced Syntax Support**: Handles ranges (`-`), steps (`/`) and lists (`,`).
 - **Error Handling**: Validates cron expressions and provides error messages for invalid syntax.
 - **Trigger Calculation**: Calculates the next trigger times based on the cron expression.
 
 ## Getting Started
 
-1. **Installation**: Add Crontastic to your project by adding a reference to the DLL on your project.
+1. **Installation**: Add Crontastic to your project by adding a reference to the DLL.
 2. **Usage**: Open the UI by running the static method `Crontastic.Crontastic.Run()`. You may pass a CRON as string as a parameter to be loaded into the UI. The method returns a string of the CRON expression built in the UI.
 
 ```csharp
