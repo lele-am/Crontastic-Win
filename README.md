@@ -4,6 +4,9 @@
 
 This is not a scheduling service, it only builds CRON expressions you can then integrate into your application.
 
+![image](https://github.com/user-attachments/assets/50e4d580-1c69-4231-aba4-b85ff392f28b)
+
+
 ## Features
 
 - **User Interface**: Intuitive UI to help users create cron expressions without needing in-depth knowledge.
