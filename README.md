@@ -1,6 +1,8 @@
 # Crontastic
 
-**Crontastic** is a DLL written in .NET 4.8 that includes a user-friendly interface to simplify the process of setting cron expressions. It's perfect for users who may not be familiar with cron syntax.
+**Crontastic** is a DLL written in .NET 4.8 that includes a user-friendly interface to simplify the process of setting cron expressions. It's made for users who may not be familiar with cron syntax.
+
+This is not a scheduling service, it only builds CRON expressions you can then integrate into your application.
 
 ## Features
 
@@ -24,7 +26,7 @@ namespace CrontasticRunnable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Crontastic.Run()); // Prints CRON-Expression made in the UI.
+            Console.WriteLine(Crontastic.Crontastic.Run()); // Prints CRON-Expression made in the UI.
             Console.ReadKey();
         }
     }
