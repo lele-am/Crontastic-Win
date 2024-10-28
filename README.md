@@ -13,7 +13,7 @@
 ## Getting Started
 
 1. **Installation**: Add Crontastic to your project by adding a reference to the DLL on your project.
-2. **Usage**: Open the UI by running the static method `Crontastic.Run()`. You may pass a CRON as string as a parameter to be loaded into the UI. The method returns a string of the CRON expression built in the UI.
+2. **Usage**: Open the UI by running the static method `Crontastic.Crontastic.Run()`. You may pass a CRON as string as a parameter to be loaded into the UI. The method returns a string of the CRON expression built in the UI.
 
 ```csharp
 using Crontastic;
